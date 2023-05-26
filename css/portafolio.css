@@ -1,0 +1,98 @@
+*{ 
+    box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Gobold Uplow;
+    }
+    
+    
+    @font-face {
+        font-family: Gobold Uplow;
+        src: url(../gobold/Gobold\ Regular.otf);
+    }
+    
+    .fondo {
+        background-image: url(../fondos/fondo4.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #A67FB5;
+        height:auto;
+       
+    }
+
+    .fondo2 {
+        background-image: url(../fondos/fondo4.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #A67FB5;
+        height:auto;
+    
+        }
+
+  .logo{
+            width: 18rem;
+            margin-left: 5rem;
+     }
+        
+ .letras {
+         font-size: 1.7rem;
+         margin-right: 8rem;
+         margin-left: 5rem;
+         }
+                
+ .letras2 {
+        font-size: 1.7rem;
+         margin-right: 8rem;
+         margin-left: 5rem; 
+         }
+             
+    
+    .letras:hover{
+        background-color: aqua;
+    }
+
+    .letras2:hover{
+        background-color: aqua;
+    }
+    
+    .diseñador{
+        justify-content: center;
+        text-align: center;
+        align-items:center;
+        margin-top: 10rem;
+        padding: 2rem;
+    }
+    
+    .texto2{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align:justify;
+    padding: 1rem;
+   
+     }
+    
+   
+   .caja {
+   border: 5px solid rgb(248, 248, 248);
+   justify-content: center;
+   text-align: center;
+   align-items:center;
+   width: 80%;
+   padding: 1rem;
+   margin-left: 10%;
+   
+    }
+
+    .caja3 {
+        color: #ffffff;
+        text-align: center;
+         justify-content:space-around;
+        align-items:center; 
+        display: flex;
+        
+        
+    }

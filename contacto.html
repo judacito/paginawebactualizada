@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>portafolio web juan david rincon</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/contacto.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid ">
+      <a class="navbar-brand logo" href="index.html"> <img src="imagenesportafoliofinal/logohorizontal.png" alt="logo"
+          width="100%"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active letras2" aria-current="page" href="perfil.html">perfil</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle 
+              letras" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              portafolio
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="portafolio.html">ilustración</a></li>
+              <li><a class="dropdown-item" href="portafolio.html#fotografìa">fotografía</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="portafolio.html#páginaweb">página web</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle 
+              letras" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              mi emprendimiento
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="miemprendimiento.html">retablos</a></li>
+              <li><a class="dropdown-item" href="miemprendimiento.html#cuadernos">cuadernos</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="miemprendimiento.html#llaveros">llaveros</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link letras" href="contacto.html">contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid" id="contacto">
+    <div class="row fondo">
+      <div class="col-xxl-1 col-xl-1 col-lg-1 col-sm-12 col-md-12 col-12"></div>
+
+      <div class="col-xxl-5 col-xl-5 col-lg-5 col-sm-12 col-md-12 col-12">
+        <h1>FORMULARIO DE PREGUNTAS</h1>
+        <br>
+        <br>
+        <label for="exampleFormControlInput1" class="form-label"> CORREO DE CONTACTO</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1">
+        <br>
+        <br>
+        <div class="">
+          <label for="exampleFormControlTextarea1" class="form-label"> ALGO QUE QUIERAS DECIRNOS</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <br>
+          <br>
+        </div>
+
+      </div>
+      <div class=" col-xxl-5 col-xl-5 col-lg-5 col-sm-12 col-md-12 col-12 imagen1">
+        <img id="ko" src="fondos/rregldo.png" alt="perfil" >
+      </div>
+      <div class="col-xxl-1 col-xl-1 col-lg-1 col-sm-12 col-md-12 col-12"></div>
+    </div>
+
+
+
+    <form class="row g-3">
+      <div class="col-xxl-1 col-xl-1 col-lg-1 col-sm-12 col-md-12 col-12"></div>
+      <div class="col-md-3">
+        <label for="validationDefault01" class="form-label">primer nombre</label>
+        <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">segundo nombre</label>
+        <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefaultUsername" class="form-label">Username</label>
+        <div class="input-group">
+          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+          <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
+            required>
+        </div>
+      </div>
+      <div class="col-xxl-1 col-xl-1 col-lg-1 col-sm-12 col-md-12 col-12"></div>
+
+      <div class="col-xxl-1 col-xl-1 col-lg-1 col-sm-12 col-md-12 col-12"></div>
+      <div class="col-md-4">
+        <label for="validationDefault03" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault04" class="form-label">pais</label>
+        <select class="form-select" id="validationDefault04" required>
+          <option selected disabled value="">elegir...</option>
+          <option>colombia</option>
+          <option>argentina</option>
+          <option>brasil</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+      <div class="col-xxl-1 col-xl-1 col-lg-1 col-sm-12 col-md-12 col-12"></div>
+      <div class="col-12">
+        <div class="col-12 polo form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            acepto terminos y condiciones
+          </label>
+        </div>
+      </div>
+      <div class="col-12 polo">
+        <button class="btn btn-primary polo" type="submit">enviar</button>
+      </div>
+    </form>
+
+  </div>
+ 
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
